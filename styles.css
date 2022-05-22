@@ -38,7 +38,7 @@ a {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-   color: var(--accent-color);
+  color: var(--accent-color);
   text-decoration: none;
 }
 .logo-accent {
@@ -55,15 +55,13 @@ a {
   color: var(--primary-text-color);
 }
 
-
-
 .site-nav .list:hover,
 .site-nav .list:focus {
   color: var(--accent-color);
 }
 
-.site-nav .active a{
-    color: var(--accent-color);
+.site-nav .active a {
+  color: var(--accent-color);
 }
 
 /* Connection */
@@ -129,9 +127,8 @@ a {
 .features .features-text {
   font-size: 14px;
   line-height: 1.71;
-  color:var(--secondary-text-color);
+  color: var(--secondary-text-color);
 }
-
 
 /* team */
 
@@ -170,7 +167,6 @@ a {
 }
 
 .info .address {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   color: var(--primary-bg-color);
@@ -178,14 +174,12 @@ a {
 
 .mail {
   font-size: 14px;
-  font-style: normal;
   line-height: 1.71;
   color: var(--accent-color-transparent);
 }
 
 .tel {
   font-size: 14px;
-  font-style: normal;
   line-height: 1.71;
   color: var(--accent-color-transparent);
 }
