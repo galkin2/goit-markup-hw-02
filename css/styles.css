@@ -117,7 +117,6 @@ a {
 /* features */
 
 .features .features-title {
-  
   line-height: 1.14;
   text-transform: uppercase;
   font-size: 14px;
@@ -130,15 +129,15 @@ a {
 
 /* team */
 
-.section {
-  background: var(--secondary-bg-color);
-}
-
-.about .about-title,
+.work .work-title,
 .section .section-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+}
+
+.section {
+  background: #f5f4fa;
 }
 
 .personal {
@@ -211,6 +210,7 @@ a {
 
 .nav .active {
   background-color: var(--accent-color);
+  color: #ffffff;
 }
 
 .nav .button:hover,
