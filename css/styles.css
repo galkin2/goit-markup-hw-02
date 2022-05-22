@@ -24,7 +24,6 @@ body {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
   font-size: 14px;
-  font-style: normal;
 }
 
 ul,
@@ -36,7 +35,7 @@ a {
 /* logo */
 
 .logo {
-  font-family: 'Raleway' sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
@@ -131,13 +130,12 @@ a {
 
 /* team */
 
-.team {
+.section {
   background: var(--secondary-bg-color);
 }
 
 .about .about-title,
-.team .team-title {
-  font-weight: 700;
+.section .section-title {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -183,8 +181,13 @@ a {
   font-style: normal;
 }
 
-.info a:hover,
-.info a:focus {
+.info .tel:hover,
+.info .tel:focus {
+  color: var(--accent-color);
+}
+
+.info .mail:hover,
+.info .mail:focus {
   color: var(--accent-color);
 }
 
@@ -193,7 +196,7 @@ a {
 /* Buttons */
 
 .nav .button {
-  font-family: 'Roboto';
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -201,8 +204,13 @@ a {
   color: var(--primary-text-color);
   cursor: pointer;
   background: var(--secondary-bg-color);
-  border: 0mm;
   border-radius: 4px;
+  border: 0mm;
+  padding: 6px 22px;
+}
+
+.nav .active {
+  background-color: var(--accent-color);
 }
 
 .nav .button:hover,
@@ -221,7 +229,6 @@ a {
 /* gallery */
 
 .gallery .gallery-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
