@@ -93,8 +93,7 @@ a {
   height: 120px;
   left: 452px;
   top: 280px;
-
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 
 .hero-button {
@@ -167,7 +166,7 @@ a {
 }
 
 .logo-accent-footer {
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 
 .info .address {
@@ -175,7 +174,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--primary-bg-color);
 }
 
 .mail {
