@@ -23,6 +23,7 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
+  font-size: 14px;
 }
 
 ul,
@@ -49,7 +50,6 @@ a {
 
 .site-nav .list {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
@@ -68,7 +68,6 @@ a {
 
 .connection a {
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14px;
   letter-spacing: 0.02em;
 
@@ -119,13 +118,11 @@ a {
 
 .features .features-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
 }
 
 .features .features-text {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-text-color);
 }
@@ -167,21 +164,21 @@ a {
 }
 
 .info .address {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--primary-bg-color);
+  font-style: normal;
 }
 
 .mail {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--accent-color-transparent);
+  font-style: normal;
 }
 
 .tel {
-  font-size: 14px;
   line-height: 1.71;
   color: var(--accent-color-transparent);
+  font-style: normal;
 }
 
 .info a:hover,
